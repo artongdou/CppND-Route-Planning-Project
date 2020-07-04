@@ -14,7 +14,7 @@ class RouteModel : public Model {
       public:
         Node * parent = nullptr;
         float h_value = std::numeric_limits<float>::max();
-        float g_value = 0.0;
+        float g_value = std::numeric_limits<float>::max();
         bool visited = false;
         std::vector<Node *> neighbors;
 
