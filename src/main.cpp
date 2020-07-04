@@ -39,7 +39,7 @@ int main(int argc, const char **argv)
     else {
         std::cout << "To specify a map file use the following format: " << std::endl;
         std::cout << "Usage: [executable] [-f filename.osm]" << std::endl;
-        osm_data_file = "/Users/tong/Documents/CppND-Route-Planning-Project/map.osm";
+        osm_data_file = "../map.osm";
     }
     
     std::vector<std::byte> osm_data;
